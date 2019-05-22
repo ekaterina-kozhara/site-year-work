@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700&display=swap&subset=cyrillic,cyrillic-ext');
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  /* font-family: 'Russo One', sans-serif; */
+  font-family: 'Press Start 2P', cursive;
+}
+
+li {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.is-hidden {
+  display: none;
+}
+
+button {
+  margin-top: 5px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 50px;
+}
+
+button span {
+  cursor: pointer;
+  width: 40px;
+  height: 4px;
+  display: block;
+  background-color: black;
+  margin-bottom: 5px;
+
+}
